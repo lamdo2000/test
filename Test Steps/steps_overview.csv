@@ -1,0 +1,271 @@
+Flow ID,Name,Description,Test Steps,Flow Priority,Status
+2,Complete Order for Power and Cables Category,"Navigate to the home page, select power and cables, add to cart, fill shipping details, complete payment, and verify thank you page.","Step 1: Navigate to /
+Step 2: Click on link categoryPowerAndCables -> Navigate to page 'category/*'
+Step 3: Click on button addToCart
+Step 4: Click on link placeAnOrder
+Step 5: Fill in shipping address details and proceed to payment
+	- Step 1: Click on button proceedToCheckout -> Navigate to page 'checkout/*'
+	- Step 2: Click on input shippingAddressFirstName
+	- Step 3: Enter input value in input shippingAddressFirstName
+	- Step 4: Click on input shippingAddressLastName
+	- Step 5: Enter input value in input shippingAddressLastName
+	- Step 6: Click on input shippingAddressAddressLine1
+	- Step 7: Enter input value in input shippingAddressAddressLine1
+	- Step 8: Click on input shippingAddressZip
+	- Step 9: Enter input value in input shippingAddressZip
+	- Step 10: Click on input shippingAddressCity
+	- Step 11: Enter input value in input shippingAddressCity
+	- Step 12: Click on input shippingAddressState
+	- Step 13: Enter input value in input shippingAddressState
+	- Step 14: Click on input shippingAddressPhone
+	- Step 15: Enter input value in input shippingAddressPhone
+	- Step 16: Click on button continueToPayment
+	- Step 17: Click on input shippingAddressFirstName
+	- Step 18: Enter input value in input shippingAddressFirstName
+	- Step 19: Click on input shippingAddressLastName
+	- Step 20: Enter input value in input shippingAddressLastName
+	- Step 21: Click on input shippingAddressAddressLine1
+	- Step 22: Enter input value in input shippingAddressAddressLine1
+	- Step 23: Click on input shippingAddressZip
+	- Step 24: Enter input value in input shippingAddressZip
+	- Step 25: Click on input shippingAddressCity
+	- Step 26: Enter input value in input shippingAddressCity
+	- Step 27: Click on input shippingAddressState
+	- Step 28: Enter input value in input shippingAddressState
+	- Step 29: Click on input shippingAddressPhone
+	- Step 30: Enter input value in input shippingAddressPhone
+	- Step 31: Click on button continueToPayment
+Step 6: Click on button completeOrder -> Navigate to page 'thank-you/*'
+Step 7: Take full page screenshot as checkpoint
+",High,STABLE
+6,Purchase Cellphone with Custom Options,"Navigate to home, add cellphone with specific options to cart, fill shipping details, complete order, and verify thank you page.","Step 1: Navigate to /
+Step 2: Click on button addToCart
+Step 3: Click on label 256Gb
+Step 4: Click on label yellow
+Step 5: Click on button buy
+Step 6: Click on span shoppingCart
+Step 7: Fill in shipping address details and proceed to payment
+	- Step 1: Click on button proceedToCheckout -> Navigate to page 'checkout/*'
+	- Step 2: Click on input shippingAddressFirstName
+	- Step 3: Enter input value in input shippingAddressFirstName
+	- Step 4: Click on input shippingAddressLastName
+	- Step 5: Enter input value in input shippingAddressLastName
+	- Step 6: Click on input shippingAddressAddressLine1
+	- Step 7: Enter input value in input shippingAddressAddressLine1
+	- Step 8: Click on input shippingAddressZip
+	- Step 9: Enter input value in input shippingAddressZip
+	- Step 10: Click on input shippingAddressCity
+	- Step 11: Enter input value in input shippingAddressCity
+	- Step 12: Click on input shippingAddressState
+	- Step 13: Enter input value in input shippingAddressState
+	- Step 14: Click on input shippingAddressPhone
+	- Step 15: Enter input value in input shippingAddressPhone
+	- Step 16: Click on button continueToPayment
+	- Step 17: Click on input shippingAddressFirstName
+	- Step 18: Enter input value in input shippingAddressFirstName
+	- Step 19: Click on input shippingAddressLastName
+	- Step 20: Enter input value in input shippingAddressLastName
+	- Step 21: Click on input shippingAddressAddressLine1
+	- Step 22: Enter input value in input shippingAddressAddressLine1
+	- Step 23: Click on input shippingAddressZip
+	- Step 24: Enter input value in input shippingAddressZip
+	- Step 25: Click on input shippingAddressCity
+	- Step 26: Enter input value in input shippingAddressCity
+	- Step 27: Click on input shippingAddressState
+	- Step 28: Enter input value in input shippingAddressState
+	- Step 29: Click on input shippingAddressPhone
+	- Step 30: Enter input value in input shippingAddressPhone
+	- Step 31: Click on button continueToPayment
+Step 8: Click on button completeOrder -> Navigate to page 'thank-you/*'
+Step 9: Take full page screenshot as checkpoint
+",High,STABLE
+1,Purchase New iPhone 15 Plus from Apple Category,"Navigate to the homepage, select the Apple category, choose the iPhone 15 Plus model, select specifications, and proceed to checkout. Verify the checkout page.","Step 1: Navigate to /
+Step 2: Click on link categoryApple -> Navigate to page 'category/*'
+Step 3: Click on button newIphone15Plus
+Step 4: Click on label 512Gb
+Step 5: Click on label green
+Step 6: Click on button buy
+Step 7: Click on link cart -> Navigate to page '/cart'
+Step 8: Click on button proceedToCheckout -> Navigate to page 'checkout/*'
+Step 9: Take full page screenshot as checkpoint
+",High,STABLE
+3,Verify Cart for Samsung Galaxy S23 Ultra Case,"Navigate to home, select Samsung Galaxy S23 Ultra case, add to cart, and verify cart contents.","Step 1: Navigate to /
+Step 2: Click on link powerAndCables -> Navigate to page 'category/*'
+Step 3: Click on link productSamsungGalaxyS23UltraSmartviewCases -> Navigate to page 'product/*'
+Step 4: Click on button increased
+Step 5: Click on button buy
+Step 6: Click on span 2s -> Navigate to page '/cart'
+Step 7: Take full page screenshot as checkpoint
+",Medium,STABLE
+4,Complete Order for Hot New Apple Product,"Navigate to home, select a hot new Apple product, add to cart, fill shipping details, complete payment, and verify thank you page.","Step 1: Navigate to /
+Step 2: Click on link apple -> Navigate to page 'category/*'
+Step 3: Click on link hotNew -> Navigate to page 'product/*'
+Step 4: Click on label 256Gb
+Step 5: Click on label yellow
+Step 6: Click on button buy2
+Step 7: Click on link placeAnOrder
+Step 8: Fill in shipping address details and proceed to payment
+	- Step 1: Click on button proceedToCheckout -> Navigate to page 'checkout/*'
+	- Step 2: Click on input shippingAddressFirstName
+	- Step 3: Enter input value in input shippingAddressFirstName
+	- Step 4: Click on input shippingAddressLastName
+	- Step 5: Enter input value in input shippingAddressLastName
+	- Step 6: Click on input shippingAddressAddressLine1
+	- Step 7: Enter input value in input shippingAddressAddressLine1
+	- Step 8: Click on input shippingAddressZip
+	- Step 9: Enter input value in input shippingAddressZip
+	- Step 10: Click on input shippingAddressCity
+	- Step 11: Enter input value in input shippingAddressCity
+	- Step 12: Click on input shippingAddressState
+	- Step 13: Enter input value in input shippingAddressState
+	- Step 14: Click on input shippingAddressPhone
+	- Step 15: Enter input value in input shippingAddressPhone
+	- Step 16: Click on button continueToPayment
+	- Step 17: Click on input shippingAddressFirstName
+	- Step 18: Enter input value in input shippingAddressFirstName
+	- Step 19: Click on input shippingAddressLastName
+	- Step 20: Enter input value in input shippingAddressLastName
+	- Step 21: Click on input shippingAddressAddressLine1
+	- Step 22: Enter input value in input shippingAddressAddressLine1
+	- Step 23: Click on input shippingAddressZip
+	- Step 24: Enter input value in input shippingAddressZip
+	- Step 25: Click on input shippingAddressCity
+	- Step 26: Enter input value in input shippingAddressCity
+	- Step 27: Click on input shippingAddressState
+	- Step 28: Enter input value in input shippingAddressState
+	- Step 29: Click on input shippingAddressPhone
+	- Step 30: Enter input value in input shippingAddressPhone
+	- Step 31: Click on button continueToPayment
+Step 9: Click on button completeOrder -> Navigate to page 'thank-you/*'
+Step 10: Take full page screenshot as checkpoint
+",Medium,STABLE
+8,Order Cellphone with Multiple Options,"Navigate to home, add cellphone with specified options to cart, fill shipping details, complete payment, and verify home page.","Step 1: Navigate to /
+Step 2: Click on button addToCart
+Step 3: Click on label 512Gb
+Step 4: Click on label green
+Step 5: Click on button buy
+Step 6: Click on link placeAnOrder -> Navigate to page '/cart'
+Step 7: Click on button increased
+Step 8: Click on button increased
+Step 9: Fill in shipping address details and proceed to payment
+	- Step 1: Click on button proceedToCheckout -> Navigate to page 'checkout/*'
+	- Step 2: Click on input shippingAddressFirstName
+	- Step 3: Enter input value in input shippingAddressFirstName
+	- Step 4: Click on input shippingAddressLastName
+	- Step 5: Enter input value in input shippingAddressLastName
+	- Step 6: Click on input shippingAddressAddressLine1
+	- Step 7: Enter input value in input shippingAddressAddressLine1
+	- Step 8: Click on input shippingAddressZip
+	- Step 9: Enter input value in input shippingAddressZip
+	- Step 10: Click on input shippingAddressCity
+	- Step 11: Enter input value in input shippingAddressCity
+	- Step 12: Click on input shippingAddressState
+	- Step 13: Enter input value in input shippingAddressState
+	- Step 14: Click on input shippingAddressPhone
+	- Step 15: Enter input value in input shippingAddressPhone
+	- Step 16: Click on button continueToPayment
+	- Step 17: Click on input shippingAddressFirstName
+	- Step 18: Enter input value in input shippingAddressFirstName
+	- Step 19: Click on input shippingAddressLastName
+	- Step 20: Enter input value in input shippingAddressLastName
+	- Step 21: Click on input shippingAddressAddressLine1
+	- Step 22: Enter input value in input shippingAddressAddressLine1
+	- Step 23: Click on input shippingAddressZip
+	- Step 24: Enter input value in input shippingAddressZip
+	- Step 25: Click on input shippingAddressCity
+	- Step 26: Enter input value in input shippingAddressCity
+	- Step 27: Click on input shippingAddressState
+	- Step 28: Enter input value in input shippingAddressState
+	- Step 29: Click on input shippingAddressPhone
+	- Step 30: Enter input value in input shippingAddressPhone
+	- Step 31: Click on button continueToPayment
+Step 10: Enter shipping address information and continue to payment
+	- Step 1: Click on input shippingAddressFirstName
+	- Step 2: Enter input value in input shippingAddressFirstName
+	- Step 3: Click on input shippingAddressLastName
+	- Step 4: Enter input value in input shippingAddressLastName
+	- Step 5: Click on input shippingAddressAddressLine1
+	- Step 6: Enter input value in input shippingAddressAddressLine1
+	- Step 7: Click on input shippingAddressZip
+	- Step 8: Enter input value in input shippingAddressZip
+	- Step 9: Click on input shippingAddressCity
+	- Step 10: Enter input value in input shippingAddressCity
+	- Step 11: Click on input shippingAddressState
+	- Step 12: Enter input value in input shippingAddressState
+	- Step 13: Click on input shippingAddressPhone
+	- Step 14: Enter input value in input shippingAddressPhone
+	- Step 15: Click on button continueToPayment
+Step 11: Take full page screenshot as checkpoint
+",Low,STABLE
+5,Verify Home After Selecting Wireless Charging Stand,"Navigate to home, select wireless charging stand, increase quantity, and verify return to home page.","Step 1: Navigate to /
+Step 2: Click on link categoryChekhlyNaIphone -> Navigate to page 'category/*'
+Step 3: Click on link byTitle
+Step 4: Click on link byPrice
+Step 5: Click on link wirelessChargingStand -> Navigate to page 'product/*'
+Step 6: Click on button increased2
+Step 7: Click on button increased2
+Step 8: Click on p price -> Navigate to page ''
+Step 9: Take full page screenshot as checkpoint
+",Trivial,STABLE
+7,Complete Order for Best Choice Hot New Apple Product,"Navigate to home, select best choice hot new Apple product, fill shipping details, complete payment, and verify home page.","Step 1: Navigate to /
+Step 2: Click on link apple -> Navigate to page 'category/*'
+Step 3: Click on link byTitle
+Step 4: Click on link byPrice
+Step 5: Click on button hotNewBestChoice
+Step 6: Click on label 1Tb
+Step 7: Click on label blueTitanium
+Step 8: Click on link bestChoiceHotNewSale -> Navigate to page 'product/*'
+Step 9: Click on label 1Tb
+Step 10: Click on label blueTitanium
+Step 11: Click on button buy2
+Step 12: Click on link goToCart
+Step 13: Fill in shipping address details and proceed to payment
+	- Step 1: Click on button proceedToCheckout -> Navigate to page 'checkout/*'
+	- Step 2: Click on input shippingAddressFirstName
+	- Step 3: Enter input value in input shippingAddressFirstName
+	- Step 4: Click on input shippingAddressLastName
+	- Step 5: Enter input value in input shippingAddressLastName
+	- Step 6: Click on input shippingAddressAddressLine1
+	- Step 7: Enter input value in input shippingAddressAddressLine1
+	- Step 8: Click on input shippingAddressZip
+	- Step 9: Enter input value in input shippingAddressZip
+	- Step 10: Click on input shippingAddressCity
+	- Step 11: Enter input value in input shippingAddressCity
+	- Step 12: Click on input shippingAddressState
+	- Step 13: Enter input value in input shippingAddressState
+	- Step 14: Click on input shippingAddressPhone
+	- Step 15: Enter input value in input shippingAddressPhone
+	- Step 16: Click on button continueToPayment
+	- Step 17: Click on input shippingAddressFirstName
+	- Step 18: Enter input value in input shippingAddressFirstName
+	- Step 19: Click on input shippingAddressLastName
+	- Step 20: Enter input value in input shippingAddressLastName
+	- Step 21: Click on input shippingAddressAddressLine1
+	- Step 22: Enter input value in input shippingAddressAddressLine1
+	- Step 23: Click on input shippingAddressZip
+	- Step 24: Enter input value in input shippingAddressZip
+	- Step 25: Click on input shippingAddressCity
+	- Step 26: Enter input value in input shippingAddressCity
+	- Step 27: Click on input shippingAddressState
+	- Step 28: Enter input value in input shippingAddressState
+	- Step 29: Click on input shippingAddressPhone
+	- Step 30: Enter input value in input shippingAddressPhone
+	- Step 31: Click on button continueToPayment
+Step 14: Enter shipping address information and continue to payment
+	- Step 1: Click on input shippingAddressFirstName
+	- Step 2: Enter input value in input shippingAddressFirstName
+	- Step 3: Click on input shippingAddressLastName
+	- Step 4: Enter input value in input shippingAddressLastName
+	- Step 5: Click on input shippingAddressAddressLine1
+	- Step 6: Enter input value in input shippingAddressAddressLine1
+	- Step 7: Click on input shippingAddressZip
+	- Step 8: Enter input value in input shippingAddressZip
+	- Step 9: Click on input shippingAddressCity
+	- Step 10: Enter input value in input shippingAddressCity
+	- Step 11: Click on input shippingAddressState
+	- Step 12: Enter input value in input shippingAddressState
+	- Step 13: Click on input shippingAddressPhone
+	- Step 14: Enter input value in input shippingAddressPhone
+	- Step 15: Click on button continueToPayment
+Step 15: Take full page screenshot as checkpoint
+",Trivial,STABLE
